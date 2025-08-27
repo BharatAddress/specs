@@ -1,0 +1,29 @@
+{
+  "openapi": "3.0.3",
+  "info": { "title": "Bharat Address API", "version": "0.1.0" },
+  "paths": {
+    "/collections": {
+      "get": {
+        "summary": "List collections",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/collections/addresses": {
+      "get": {
+        "summary": "Describe the addresses collection",
+        "responses": { "200": { "description": "OK" } }
+      }
+    },
+    "/collections/addresses/items": {
+      "get": {
+        "summary": "List address features",
+        "parameters": [
+          { "name": "limit", "in": "query", "schema": { "type": "integer", "default": 100 } }
+        ],
+        "responses": {
+          "200": { "description": "GeoJSON FeatureCollection" }
+        }
+      }
+    }
+  }
+}
