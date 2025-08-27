@@ -1,6 +1,6 @@
 # Bharat Address Specifications
 
-Purpose: normative documents and schemas for the Bharat Address Open Source Project. This repo defines the minimal address feature schema and related guidance for ULBs and integrators.
+Purpose: normative documents and schemas for the Bharat Address Open Source Project. This repo defines the minimal address feature schema (JSON Schema draft 2020-12) and related guidance for ULBs and integrators.
 
 Contents:
 - `address-register.schema.json`: Minimal JSON Schema for address features
