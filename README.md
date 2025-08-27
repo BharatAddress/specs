@@ -1,5 +1,7 @@
 # Bharat Address Specifications
 
+![Schema Lint](https://github.com/BharatAddress/specs/actions/workflows/schema-lint.yml/badge.svg)
+
 Purpose: normative documents and schemas for the Bharat Address Open Source Project. This repo defines the minimal address feature schema (JSON Schema draft 2020-12) and related guidance for ULBs and integrators.
 
 Contents:
