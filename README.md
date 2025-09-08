@@ -30,3 +30,7 @@ References:
 - Know Your DIGIPIN: https://dac.indiapost.gov.in/mydigipin/home
 - LGD Portal: https://lgdirectory.gov.in/
 - OGC API Features: https://ogcapi.ogc.org/features/
+
+## Contributor Guide
+
+- Central guidelines: https://github.com/BharatAddress/.github/blob/main/AGENTS.md
